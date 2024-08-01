@@ -70,12 +70,9 @@
 - Change directory to the folder TorrentLAN(i.e. base directory where you have downloaded TorrentLAN)
 - After the above setup any command you run should be from TorrentLAN base directory otherwise it will not work
 - All the fxns of backend are available with details in `main.py`
-- For People who are outside of (IITJ college) should follow [Outside IITJ College Guide](#outside-iitj-college-guide)
 
 ---
-## Outside IITJ College Guide
 
-- This guide is for people who are outside (IITJ college)
 - TorrentLAN uses server-client tracker model, So u must setup a computer which will act as a tracker server
 - In the server you should run `./utils/tracker/server(c-s).py`
 - For the clients, change the 'server_addr' to your server address inside `./configs/server.json`
